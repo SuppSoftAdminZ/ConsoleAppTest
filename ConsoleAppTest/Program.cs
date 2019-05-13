@@ -24,7 +24,7 @@ namespace ConsoleAppTest
         private static void DivideSomething(int x, int y)
         {
             int rem = x / y;
-            Console.WriteLine("The Remainder is " + diff);
+            Console.WriteLine("The Remainder is " + rem);
             Console.ReadLine();
         }
     }
