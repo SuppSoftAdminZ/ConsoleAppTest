@@ -21,5 +21,11 @@ namespace ConsoleAppTest
             Console.WriteLine("The Difference is " + diff);
             Console.ReadLine();
         }
+        private static void DivideSomething(int x, int y)
+        {
+            int rem = x / y;
+            Console.WriteLine("The Remainder is " + diff);
+            Console.ReadLine();
+        }
     }
 }
