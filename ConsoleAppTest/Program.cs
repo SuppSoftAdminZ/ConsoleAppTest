@@ -15,5 +15,11 @@ namespace ConsoleAppTest
             Console.WriteLine("The Sum is " + sum);
             Console.ReadLine();
         }
+        private static void SubtractSomething(int x, int y)
+        {
+            int diff = x - y;
+            Console.WriteLine("The Difference is " + diff);
+            Console.ReadLine();
+        }
     }
 }
