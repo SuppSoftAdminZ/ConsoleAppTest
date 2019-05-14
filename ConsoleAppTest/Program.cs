@@ -8,6 +8,8 @@ namespace ConsoleAppTest
         {
             Console.WriteLine("Hello World!");
             AddSomething(350, 70);
+            SubtractSomething(10, 3);
+            DivideSomething(568, 20);
         }
         private static void AddSomething(int x,int y)
         {
